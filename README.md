@@ -1,7 +1,9 @@
-# Awesome Project Build with TypeORM
+# Error demo
 
-Steps to run this project:
+Demonstrates an issue with decimal column type and foreign key reference in SQLite
+
+## To reproduce:
 
 1. Run `npm i` command
-2. Setup database settings inside `ormconfig.json` file
-3. Run `npm start` command
+3. Run `npm start` command will succeed
+3. Run `npm start` command again will fail
